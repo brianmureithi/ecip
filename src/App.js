@@ -1,10 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import BannerStart from './components/BannerStart';
+import Banner from './components/Banner';
 
 function App() {
   return (
-    <div className="App">
-<h1 className='text-xl font-bold'>Brian</h1>
+    <div className="relative">
+      <Navbar/>
+      <BannerStart/>
+      <Banner/>
+
     </div>
   );
 }
