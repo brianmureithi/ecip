@@ -7,7 +7,7 @@ function About() {
       <h1 className='text-center font-bold font-sans text-3xl text-sky-500 '>About Us</h1>
       <div className='w-[40%] mx-auto mt-12'>
       <p className='text-gray-800 leading-8 text-base font-sans pb-14 '>
-      E.C.I.P, which stands for Esther Children's Initiative Program, is a charitable organization
+      E.C.I.P, which stands for Esther Children's Integrated Program, is a charitable organization
        founded by Esther Nzioka, a former social worker and trained counselor with over a decade of experience
         in assisting vulnerable groups such as orphans, widows, teenage mothers, and people with HIV. Esther's perception of 
         the world changed significantly following a life-changing event she experienced while on duty.
