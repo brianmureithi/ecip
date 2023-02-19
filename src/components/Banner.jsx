@@ -3,7 +3,7 @@ import * as FaIcons from 'react-icons/fa'
 
 function Banner() {
   return (
-    <div className='h-[50vh] flex flex-row max-h-[50vh] ' >
+    <div className='h-[20vh] flex flex-row max-h-[30vh]' >
       <div className='border-b h-full border-b-black bg-gradient-to-tr from-orange-400 to-orange-300 w-full  absolute clip-banner
     flex flex-row flex-nowrap justify-between mb-8 pt-[8rem] '>
        <div className='w-1/2 h-full flex flex-col justify-start items-center'>
@@ -23,18 +23,18 @@ function Banner() {
 
       </div>
      
-      <div className='w-1/2  h-[50vh] flex flex-col justify-end items-end  mx-2 z-50 absolute right-2 -bottom-[6rem] pr-8 self-end  '>
+      <div className='w-1/2  h-[50vh] flex flex-col justify-end items-end  mx-2 z-50 absolute right-2 bottom-[2rem] pr-8 self-end  '>
   
-        <div className='h-[10rem] w-[10rem] ring-4 ring-orange-300  hover:ring-opacity-90  hover:ring-orange-300 transition ease-in-out duration-150  z-50 rounded-full' >      
+        <div className='h-[10rem] w-[10rem] ring-4 ring-orange-300  hover:ring-opacity-90  hover:ring-orange-300 transition ease-in-out duration-300  z-50 rounded-full hover:scale-105' >      
         <img src="./images/img.jpeg" className='object-fill h-[10rem] w-[10rem] rounded-full' alt='Children banner'/>
         </div>
-        <div className='w-full h-[20vh]  flex flex-row items-end '>
-        <ul className="flex flex-row w-full mt-4 justify-end px-4">
-                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125'> <FaIcons.FaFacebookF/></li>
-                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125'> <FaIcons.FaTwitter/></li>
-                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125'> <FaIcons.FaPinterest/></li>
-                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125'><FaIcons.FaYoutube/> </li>
-                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125'>  <FaIcons.FaInstagramSquare/></li>
+        <div className='w-full h-[20vh]  flex flex-row justify-end items-end  top-0 '>
+        <ul className="flex flex-row  mt-4 justify-end px-4  w-max">
+                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer'> <FaIcons.FaFacebookF/></li>
+                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer'> <FaIcons.FaTwitter/></li>
+                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer'> <FaIcons.FaPinterest/></li>
+                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer'><FaIcons.FaYoutube/> </li>
+                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer'>  <FaIcons.FaInstagramSquare/></li>
                             </ul>
 
         </div>
