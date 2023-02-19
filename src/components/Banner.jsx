@@ -29,13 +29,13 @@ function Banner() {
         <img src="./images/img.jpeg" className='object-fill h-[10rem] w-[10rem] rounded-full' alt='Children banner'/>
         </div>
         <div className='w-full h-[20vh]  flex flex-row justify-end items-end  top-0 '>
-        <ul className="flex flex-row  mt-4 justify-end px-4  w-max">
-                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer'> <FaIcons.FaFacebookF/></li>
-                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer'> <FaIcons.FaTwitter/></li>
-                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer'> <FaIcons.FaPinterest/></li>
-                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer'><FaIcons.FaYoutube/> </li>
-                                <li className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer'>  <FaIcons.FaInstagramSquare/></li>
-                            </ul>
+        <div className="flex flex-row  mt-4 justify-end px-4  w-max">
+                                <a href='https://web.facebook.com/?_rdc=1&_rdr' className='mr-3 text-xl text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer '><FaIcons.FaFacebookF/></a>
+                                <a  href='https://web.twitter.com/?_rdc=1&_rdr' className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer'> <FaIcons.FaTwitter/></a>
+
+                                <a  href='https://web.youtube.com/?_rdc=1&_rdr' className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer'><FaIcons.FaYoutube/> </a>
+                                <a  href='https://web.instagram.com/?_rdc=1&_rdr' className='mr-3 text-lg text-sky-600 transition ease-in-out duration-150 hover:text-sky-500 hover:scale-125 cursor-pointer'>  <FaIcons.FaInstagramSquare/></a>
+                            </div>
 
         </div>
 

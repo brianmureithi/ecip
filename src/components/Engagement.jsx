@@ -23,7 +23,7 @@ function Engagement() {
     <p className='w-[50%] mb-6 font-semibold'>Location <span className='font-normal' >&mdash; Tharaka-Nithi</span></p>
     <p className='w-[50%] mb-6 font-semibold'>Email <span className='font-normal'>&mdash; <a href='mailto:mumbuaesther033@gmail.com'>mumbuaesther033@gmail.com</a></span></p>
     <p className='w-[50%] mb-6 font-semibold'>Postal Office <span className='font-normal'>&mdash; P.O Box 266 60401 Chogoria</span></p>
-    <p className='w-[50%] mb-6 font-semibold'>Tel <span className='font-normal'>&mdash;<a href='tel:0768938573'> +254 729 022 572</a> </span></p>
+    <p className='w-[50%] mb-6 font-semibold'>Tel <span className='font-normal'>&mdash;<a href='tel:0729022572'> +254 729 022 572</a> </span></p>
     <p className='w-[50%] mb-6 font-semibold p-2 bg-slate-100 rounded-md'>Donate <span className='font-normal'>&mdash; EQUITY Bank <span className='flex flex-row font-semibold'>Paybill &mdash; <span className='font-normal'>247247</span></span>
     <span className='flex flex-row font-semibold'>Account number <span className='font-normal'>&mdash; 1022**5633</span></span></span></p>
   </div>
